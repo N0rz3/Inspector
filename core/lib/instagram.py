@@ -35,21 +35,23 @@ def main(phone):
 
         for i in list:
             try:
-                if i[0]['exists'] == True:
-                    acces_list.append(i[0]['name'])
-
-                    print(f"[{utils.Green}+{utils.White}] Instagram")
-
-                if i[0]['exists'] == False:
-                    acces_list.clear()
-
-                    print(f"[{utils.Red}-{utils.White}] Instagram")
                 
                 if i[0]['rateLimit'] == True:
                     acces_list.clear()
 
-                    print(f"[{utils.Black}x{utils.White}] Amazon")
+                    print(f"[{utils.Black}x{utils.White}] Instagram")
 
+                if i[0]['rateLimit'] == False:
+
+                    if i[0]['exists'] == True:
+                        acces_list.append(i[0]['name'])
+
+                        print(f"[{utils.Green}+{utils.White}] Instagram")
+
+                    if i[0]['exists'] == False:
+                        acces_list.clear()
+
+                        print(f"[{utils.Red}-{utils.White}] Instagram")
             except:
                 pass
 
