@@ -1,3 +1,4 @@
 argparse
 phonenumbers
 tqdm
+bs4
