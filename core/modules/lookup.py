@@ -25,24 +25,9 @@ class Look:
                 taxed = phone.replace("+33", "")
                 if re.match(r"^8\d{8}$", taxed) or re.match(r"^0 8\d{8}$", taxed):
                     taxed = f"[{utils.Yellow}?{utils.White}] Phone number certainly surcharged"
-                
-                elif re.match(r"^10\d{4}$", taxed) or re.match(r"^3\d{4}$", taxed):
-                    taxed = f"[{utils.Red}!{utils.White}] Phone number surcharged"
 
-                elif re.match(r"^118\d{6}$", taxed):
-                    taxed = f"[{utils.Red}!{utils.White}] Phone number surcharged"
-
-                elif re.match(r"^9\d{8}$", taxed):
+                elif re.match(r"^9\d{8}$", taxed) or re.match(r"^0 9\d{8}$", taxed):
                     taxed = f"[{utils.Red}!{utils.White}] Phone number surcharged"     
-
-                elif re.match(r"^1\d{8}$", taxed) or re.match(r"^2\d{8}$", taxed):
-                    taxed = f"[{utils.Red}!{utils.White}] Phone number surcharged"   
-
-                elif re.match(r"^3\d{8}$", taxed) or re.match(r"^4\d{8}$", taxed):
-                    taxed = f"[{utils.Red}!{utils.White}] Phone number surcharged"
-
-                elif re.match(r"^5\d{8}$", taxed):
-                    taxed = f"[{utils.Red}!{utils.White}] Phone number surcharged"
 
                 else:
                     taxed = f"[{utils.Green}*{utils.White}] Phone number not surcharged"
