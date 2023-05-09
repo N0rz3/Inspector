@@ -20,7 +20,7 @@
 
 ### **📚 Example :**
 ```
-python inspector.py -p +33800134426
+python inspector.py -p +33666666666
 ```
 
 
