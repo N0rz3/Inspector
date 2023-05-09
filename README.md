@@ -22,7 +22,6 @@
 ```
 python inspector.py -p +33800134426
 ```
-https://user-images.githubusercontent.com/123885505/235480252-30881194-4ff5-4f83-9f80-8a78f822f81a.mp4
 
 
 
