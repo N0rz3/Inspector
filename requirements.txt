@@ -2,3 +2,4 @@ argparse
 phonenumbers
 tqdm
 bs4
+requests
