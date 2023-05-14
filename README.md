@@ -15,7 +15,6 @@
 >> cd core\
 >> python inspector.py -h
 ```
-**You will need __ignorant__ [(github repo)](https://github.com/megadose/ignorant)**
 
 
 ### **📚 Example :**
