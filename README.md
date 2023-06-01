@@ -1,6 +1,7 @@
 # **Inspector 👁️ - OSINT**
 ![inspector](https://user-images.githubusercontent.com/123885505/235235978-76f43388-fba9-4443-bb30-1649aaa3ed95.png)
-
+![GitHub](https://img.shields.io/github/license/bellingcat/octosuite?style=flat)
+![Python minimum version](https://img.shields.io/badge/Python-3.10%2B-brightgreen)
 
 # Find information via a 📞 __French__ phone number  !
 
