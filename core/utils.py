@@ -1,3 +1,5 @@
+from colorama import *
+
 """
 Here you will find everything used to make the tool work properly like : 
 - All colors
@@ -16,11 +18,11 @@ Color rgb example (205,102,0) => Functional rgb color in python scripts example 
 """
 
 
-Red = "\033[38;2;255;48;48m"
-White = '\033[38;2;255;255;255m'
-Green = "\033[38;2;193;255;193m"
-Black = "\033[38;2;0;0;0m"
-Yellow = "\033[38;2;255;255;0m"
+Red = Fore.RED
+White = Fore.WHITE
+Green = Fore.GREEN
+Black = Fore.BLACK
+Yellow = Fore.YELLOW
 
 
 # Banner
@@ -61,3 +63,4 @@ def tellows(phone) -> None:
 headers = {
     "User-Agent": "Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.9 sun4u; X11)"
 }
+
