@@ -16,11 +16,11 @@ class Inspect:
         print(utils.Banner)
 
         # command for launch the tool
-        parser = argparse.ArgumentParser(description='Find phone informations') 
-        parser.add_argument('-p', '--phone', help='<phone>')
+        parser = argparse.ArgumentParser() 
+        parser.add_argument('phonenumber', help='<phone>')
 
         args = parser.parse_args()
-        numbers = args.phone
+        numbers = args.phonenumber
 
         phone_format = numbers.replace("+33", "") # Change the `+33` by the country code that need 
         free_format = numbers.replace("+", "").strip()
