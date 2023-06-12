@@ -163,3 +163,7 @@ Do you like what I offer as content ? Subscribe to my GitHub account for more to
 - 👨‍💻 Source code : me 🤗
 - 🖼️ Logo        : me 🤗
 - 🖼️ Logo in ascii : Z0r4x
+
+if you want to find information on a number other than French please change ` country_code="33"` instead of 33 change with the beginning of the number for example: `+20...` well you put `20` instead of 33 in the lib folder in `amazon.py` and `instagram.py`
+
+and also change the `country = geocoder.description_for_number(numbers, 'fr')` in the module folder and `lookup.py` by `country = geocoder.description_for_number(numbers, 'number country')`
